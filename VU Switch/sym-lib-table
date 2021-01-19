@@ -3,5 +3,5 @@
   (lib (name VU_Switch)(type Legacy)(uri $KIPRJMOD/../common/library/VU_Switch.lib)(options "")(descr ""))
   (lib (name audio_jack)(type Legacy)(uri $KIPRJMOD/../common/library/audio_jack.lib)(options "")(descr ""))
   (lib (name barrel_jack)(type Legacy)(uri $KIPRJMOD/../common/library/barrel_jack.lib)(options "")(descr ""))
-  (lib (name hk19f-dc)(type Legacy)(uri "D:/ownCloud/Documents/Projects/VU Switch/common/library/hk19f-dc.lib")(options "")(descr ""))
+  (lib (name hk19f-dc)(type Legacy)(uri $KIPRJMOD/../common/library/hk19f-dc.lib)(options "")(descr ""))
 )
