@@ -12,4 +12,5 @@
 # Autorouter files (exported from Pcbnew)
 .dsn
 
+*.zip
 resources/

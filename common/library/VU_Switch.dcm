@@ -6,6 +6,12 @@ K screw terminal
 F ~
 $ENDCMP
 #
+$CMP LED_Plugin
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
 $CMP PWR
 D Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
 K screw terminal
