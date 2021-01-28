@@ -242,7 +242,7 @@ U 1 1 600737D5
 P 2700 6850
 F 0 "J1" H 2675 7050 50  0000 C CNN
 F 1 "DC_12V" H 2675 6975 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2700 6850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2700 6850 50  0001 C CNN
 F 3 "~" H 2700 6850 50  0001 C CNN
 	1    2700 6850
 	1    0    0    -1  
@@ -272,17 +272,6 @@ $EndComp
 NoConn ~ 9325 2725
 NoConn ~ 9325 3025
 $Comp
-L audio_jack:TRS_3.5mm J4
-U 1 1 6008ADA2
-P 3075 2925
-F 0 "J4" H 3053 3350 50  0000 C CNN
-F 1 "INPUT1" H 3053 3259 50  0000 C CNN
-F 2 "audio_jack:Tayda_3.5mm_stereo_TRS_jack_A-853" H 3325 3025 50  0001 C CNN
-F 3 "~" H 3325 3025 50  0001 C CNN
-	1    3075 2925
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR04
 U 1 1 6008ADA8
 P 3275 3175
@@ -295,17 +284,6 @@ F 3 "" H 3275 3175 50  0001 C CNN
 $EndComp
 NoConn ~ 2875 2725
 NoConn ~ 2875 3025
-$Comp
-L hk19f-dc:HK19F-DC K1
-U 1 1 6009ACF5
-P 1800 2875
-F 0 "K1" H 1750 2875 50  0000 L CNN
-F 1 "HK19F-DC" H 2100 2875 50  0000 L CNN
-F 2 "HK19F-DC:HK19F-DC" H 2650 3000 50  0001 C CNN
-F 3 "" H 2650 3000 50  0001 C CNN
-	1    1800 2875
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR02
 U 1 1 6009BF8A
@@ -385,22 +363,12 @@ Wire Wire Line
 	2100 3400 3375 3400
 Wire Wire Line
 	3275 3175 3275 3125
-Text GLabel 1725 3400 0    50   Input ~ 0
-SELECT_1
-Text GLabel 4050 1200 2    50   Output ~ 0
-SELECT_1
 Wire Wire Line
 	4050 1200 3975 1200
-Text GLabel 4050 1300 2    50   Output ~ 0
-SELECT_2
 Wire Wire Line
 	4050 1300 3975 1300
-Text GLabel 4050 1400 2    50   Output ~ 0
-SELECT_3
 Wire Wire Line
 	4050 1400 3975 1400
-Text GLabel 4050 1500 2    50   Output ~ 0
-SELECT_4
 Wire Wire Line
 	4050 1500 3975 1500
 Text GLabel 8625 2925 0    50   Input ~ 0
@@ -412,7 +380,7 @@ L audio_jack:TRS_3.5mm J5
 U 1 1 60109791
 P 3075 4400
 F 0 "J5" H 3053 4825 50  0000 C CNN
-F 1 "INPUT2" H 3053 4734 50  0000 C CNN
+F 1 "INPUT3" H 3053 4734 50  0000 C CNN
 F 2 "audio_jack:Tayda_3.5mm_stereo_TRS_jack_A-853" H 3325 4500 50  0001 C CNN
 F 3 "~" H 3325 4500 50  0001 C CNN
 	1    3075 4400
@@ -497,14 +465,14 @@ Wire Wire Line
 	2100 4875 3375 4875
 Wire Wire Line
 	3275 4650 3275 4600
-Text GLabel 1725 4875 0    50   Input ~ 0
+Text GLabel 4500 3400 0    50   Input ~ 0
 SELECT_2
 $Comp
 L audio_jack:TRS_3.5mm J6
 U 1 1 60110594
 P 5850 2925
 F 0 "J6" H 5828 3350 50  0000 C CNN
-F 1 "INPUT3" H 5828 3259 50  0000 C CNN
+F 1 "INPUT2" H 5828 3259 50  0000 C CNN
 F 2 "audio_jack:Tayda_3.5mm_stereo_TRS_jack_A-853" H 6100 3025 50  0001 C CNN
 F 3 "~" H 6100 3025 50  0001 C CNN
 	1    5850 2925
@@ -589,19 +557,8 @@ Wire Wire Line
 	4875 3400 6150 3400
 Wire Wire Line
 	6050 3175 6050 3125
-Text GLabel 4500 3400 0    50   Input ~ 0
+Text GLabel 1725 4875 0    50   Input ~ 0
 SELECT_3
-$Comp
-L audio_jack:TRS_3.5mm J7
-U 1 1 601105C6
-P 5850 4400
-F 0 "J7" H 5828 4825 50  0000 C CNN
-F 1 "INPUT4" H 5828 4734 50  0000 C CNN
-F 2 "audio_jack:Tayda_3.5mm_stereo_TRS_jack_A-853" H 6100 4500 50  0001 C CNN
-F 3 "~" H 6100 4500 50  0001 C CNN
-	1    5850 4400
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 601105CC
@@ -615,17 +572,6 @@ F 3 "" H 6050 4650 50  0001 C CNN
 $EndComp
 NoConn ~ 5650 4200
 NoConn ~ 5650 4500
-$Comp
-L hk19f-dc:HK19F-DC K4
-U 1 1 601105D4
-P 4575 4350
-F 0 "K4" H 4525 4350 50  0000 L CNN
-F 1 "HK19F-DC" H 4875 4350 50  0000 L CNN
-F 2 "HK19F-DC:HK19F-DC" H 5425 4475 50  0001 C CNN
-F 3 "" H 5425 4475 50  0001 C CNN
-	1    4575 4350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR07
 U 1 1 601105DA
@@ -681,8 +627,6 @@ Wire Wire Line
 	4875 4875 6150 4875
 Wire Wire Line
 	6050 4650 6050 4600
-Text GLabel 4500 4875 0    50   Input ~ 0
-SELECT_4
 $Comp
 L VU_Switch:VU_OUT J9
 U 1 1 6013C1E5
@@ -960,4 +904,60 @@ Connection ~ 7950 4175
 Wire Wire Line
 	7950 4175 7950 4325
 Connection ~ 7950 4325
+$Comp
+L audio_jack:TRS_3.5mm J7
+U 1 1 601105C6
+P 5850 4400
+F 0 "J7" H 5828 4825 50  0000 C CNN
+F 1 "INPUT1" H 5828 4734 50  0000 C CNN
+F 2 "audio_jack:Tayda_3.5mm_stereo_TRS_jack_A-853" H 6100 4500 50  0001 C CNN
+F 3 "~" H 6100 4500 50  0001 C CNN
+	1    5850 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L hk19f-dc:HK19F-DC K4
+U 1 1 601105D4
+P 4575 4350
+F 0 "K4" H 4525 4350 50  0000 L CNN
+F 1 "HK19F-DC" H 4875 4350 50  0000 L CNN
+F 2 "HK19F-DC:HK19F-DC" H 5425 4475 50  0001 C CNN
+F 3 "" H 5425 4475 50  0001 C CNN
+	1    4575 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 1725 3400 0    50   Input ~ 0
+SELECT_4
+Text GLabel 4500 4875 0    50   Input ~ 0
+SELECT_1
+$Comp
+L audio_jack:TRS_3.5mm J4
+U 1 1 6008ADA2
+P 3075 2925
+F 0 "J4" H 3053 3350 50  0000 C CNN
+F 1 "INPUT4" H 3053 3259 50  0000 C CNN
+F 2 "audio_jack:Tayda_3.5mm_stereo_TRS_jack_A-853" H 3325 3025 50  0001 C CNN
+F 3 "~" H 3325 3025 50  0001 C CNN
+	1    3075 2925
+	-1   0    0    -1  
+$EndComp
+$Comp
+L hk19f-dc:HK19F-DC K1
+U 1 1 6009ACF5
+P 1800 2875
+F 0 "K1" H 1750 2875 50  0000 L CNN
+F 1 "HK19F-DC" H 2100 2875 50  0000 L CNN
+F 2 "HK19F-DC:HK19F-DC" H 2650 3000 50  0001 C CNN
+F 3 "" H 2650 3000 50  0001 C CNN
+	1    1800 2875
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 1200 2    50   Output ~ 0
+SELECT_4
+Text GLabel 4050 1300 2    50   Output ~ 0
+SELECT_3
+Text GLabel 4050 1400 2    50   Output ~ 0
+SELECT_2
+Text GLabel 4050 1500 2    50   Output ~ 0
+SELECT_1
 $EndSCHEMATC
