@@ -100,7 +100,7 @@ The following components were used when building the completed unit, including V
 ## 4.1> VU Switch
 | Reference        | Item                                      | Count | Order  |
 | ---------------- | ----------------------------------------- | ----- | ------ |
-| PCB              | Fabricate using Gerber files              |     1 |        |
+| PCB              | Fabricate using Gerber files              |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/VU_Switcher.html) |
 | C1               | 2200uF 25v electrolytic capacitor (5mm)   |     1 |        |
 | C2               | 100uF 16v electrolytic capacitor (2.5mm)  |     1 |        |
 | C3               | 100nF ceramic capacitor (5mm)             |     1 |        |
