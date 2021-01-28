@@ -1,7 +1,7 @@
 # Building VU Switch
 All of this started when I found a really cool case on AliExpress, the *GOF-P01 133.4x55x109mm* and it all snowballed from that point. The one thing I actually needed was an audio input switcher so that I didn't have to swap the cables going into my 80s boombox, so I tried bying a ready-made module that in the end never fit into the case so I had to redesign the module to fit - then I added a VU Meter kit, mostly because I think they are really cool and I never had one before.
 
-![Front view](https://github.com/tebl/VU-Switch/raw/main/gallery/build_021.jpg)
+![Front view](https://github.com/tebl/VU-Switch/raw/main/gallery/build_023.jpg)
 ![Rear view](https://github.com/tebl/VU-Switch/raw/main/gallery/build_022.jpg)
 
 The first part of this project is therefore the passive audio switch, it allows up to four 3.5mm audio inputs that are switched to one output using relays. The PCB designed for it is the main part of this part, in addition to the documentation needed to actually build the complete unit.
